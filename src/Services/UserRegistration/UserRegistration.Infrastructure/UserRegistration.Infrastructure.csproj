@@ -17,6 +17,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\UserRegistration.Domain\UserRegistration.Domain.csproj" />
+      <ProjectReference Include="..\UserRegistration.Application\UserRegistration.Application.csproj" />
+      <ProjectReference Include="..\..\Shared\Shared.csproj" />
     </ItemGroup>
 
 </Project>
